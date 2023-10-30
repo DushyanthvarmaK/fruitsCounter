@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 70px;
+}
+.card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.image {
+  width: 350px;
+  height: 350px;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.each {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  border: 0px solid;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.count {
+  color: #ffd569;
+}
